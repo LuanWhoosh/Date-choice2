@@ -14,18 +14,18 @@ label start:
 
 
 
-    "Eres una persona que se ha sentido sola mucho tiempo, así que intentas algo nuevo registrándote en una app de citas,"
+    "Eres una persona que se ha sentido sola mucho tiempo, así que intentas algo nuevo registrándote en una app de citas."
 
-    "has conocido gente nueva y te han llamado la atención, pero hay dos principales: "
+    "Has conocido gente nueva y te han llamado la atención, pero hay dos principales: "
 
-    "John y Optimus prime, con quienes has platicado mucho y tienen una muy buena química contigo,"
+    "John y Optimus prime, con quienes has platicado mucho y tienen una muy buena química contigo."
 
-    "e intentas probar suerte con alguno de los dos; sin embargo, la cosa se complica cuando ambos te invitan a salir el mismo día,"
+    "Intentas probar suerte con alguno de los dos; sin embargo, la cosa se complica cuando ambos te invitan a salir el mismo día."
 
-    "es así que, debes decidir con quien te gustaría tener una cita"
+    "Por lo que, debes decidir con quien te gustaría tener una cita."
 
 
-    g "Hmmm...Yo elijo a:"
+    g "Hmmm Yo elijo a:..."
 
 menu:
 
@@ -37,15 +37,15 @@ menu:
 
 label op:
 
-    "Has elegido a optimus, parece ser un nombre extranjero, te ha llamado la atención su secretismo,"
+    "Has elegido a Optimus, parece ser un nombre extranjero, te ha llamado la atención su secretismo,"
 
     "pues nunca lo has visto ni en fotos, pero es capaz de inspirar una confianza y determinación que te atrapa."
 
     "Su plan es llevarte a pasear, pero no sabes realmente que pueda suceder en la cita."
     
-    "Llegó la hora de arreglarte, él vendrá a recogerte pronto, te maquillas y peinas como mejor puedes, quieres lucir lo más deslumbrante posible,"
+    "¡Llegó la hora de arreglarte!, él vendrá a recogerte pronto, te maquillas y peinas como mejor puedes, quieres lucir lo más deslumbrante posible..."
 
-    "pero no sabes elegir si ponerte tu vestido corto rojo, o tu vestido largo negro, ambos lucen hermosos."
+    "...pero no sabes elegir si ponerte tu vestido corto rojo, o tu vestido largo negro, ambos lucen hermosos."
 
 menu:
 
@@ -59,7 +59,7 @@ menu:
 label dateop:
     "Se escucha el timbre, !ha llegado!"
 
-    "y al abrir la puerta encuentras... ¿un trailer?"
+    "Y al abrir la puerta encuentras... ¿un trailer?"
 
     g "Nunca mencionó ser trailero..."
 
@@ -69,7 +69,7 @@ label dateop:
 
     "Intentas procesar lo que acaba de pasar..." 
     
-    "...cuando de repente llega lo que parece ser un tanque alienígena, que de igual manera se transforma en un robot gigante"
+    "...cuando de repente llega lo que parece ser un tanque alienígena, que de igual manera se transforma en un robot gigante."
 
     t "¡VAS A CAER PRIME!"
 
@@ -81,11 +81,11 @@ label dateop:
 
 label jw:
 
-    "Has elegido a john, es una persona muy tranquila y seria, también es nuevo en las apps de citas, sentía que era tiempo de darse un nuevo aire y conocer a alguien."
+    "Has elegido a John, es una persona muy tranquila y seria, también es nuevo en las apps de citas, sentía que era tiempo de darse un nuevo aire y conocer a alguien."
 
-    "Este te manda mensaje para ponerse de acuerdo en cuanto a la cena, tiene pensado salir a pasear contigo y llevarte a cenar a un restaurante."
+    "John te manda mensaje para ponerse de acuerdo sobre la cena, tiene pensado salir a pasear contigo y llevarte a cenar a un restaurante..."
 
-    "Pero en tu picardía se te mete la idea de que, tal vez puedan pasar una linda velada en tu casa, a lo cual no sabes qué decidir."
+    "...pero en tu picardía se te mete la idea de que, tal vez puedan pasar una linda velada en tu casa, a lo cual no sabes qué decidir."
 
 menu:
     "Restaurante":
@@ -96,11 +96,11 @@ menu:
 
 label casag:
 
-    "Decides arriesgarte, e invitarlo a pasar la cita en tu casa, a lo que acepta con gusto, esto te hará sentirás cómodo, es tu zona de confort,"
+    "Decides arriesgarte, e invitarlo a pasar la cita en tu casa, a lo que acepta con gusto. Esto te hará sentir cómoda, es tu zona de confort."
 
-    "además, es bueno dejar una buena primera impresión como anfitrión, así como sorprenderlo preparándole algo."
+    "Además, es bueno dejar una buena primera impresión como anfitrión, así como sorprenderlo preparándole algo."
 
-    "Decides prepararle algo especial hecho por ti misma, no sabes decidir si..."
+    "Decides prepararle algo especial hecho por ti misma, pero no sabes decidir si..."
 
 menu:
     "Pollo a la naranja":
@@ -112,7 +112,7 @@ label pollo:
 
     "Decides preparar un delicioso pollo a la naranja, pero esto llevara más tiempo de lo esperado, por lo que... "
 
-    "le pides a john que llegue más tarde de lo que habían acordado, a lo que accede sin problemas."
+    "...le pides a john que llegue más tarde de lo que habían acordado, a lo que accede sin problemas."
 
     "Es hora de preparar la comida, la cual haces con mucho esmero, quieres que sea especial y que lo note con solo probarlo."
 
@@ -124,7 +124,7 @@ label pasta:
 
     "Decides hacerle una rica pasta italiana, un rissoto será perfecto, pero esto llevara más tiempo de lo esperado, por lo que... "
 
-    "le pides a john que llegue más tarde de lo que habían acordado, a lo que accede sin problemas."
+    "...le pides a john que llegue más tarde de lo que habían acordado, a lo que accede sin problemas."
 
     "Es hora de preparar la comida, la cual haces con mucho esmero, quieres que sea especial y que lo note con solo probarlo."
 
@@ -134,9 +134,9 @@ label pasta:
 
 label jwplanta:
 
-    "Ya casi es hora de que llegue John, cuando de repente suena una notificación en tu celular, era él."
+    "Ya casi es hora de que llegue John, cuando de repente suena una notificación en tu celular, es él."
 
-    j "Lo lamento demasiado, pero no voy a poder verte hoy, acabo de tener un incidente y es de extrema urgencia que lo atienda, espero puedas comprender"
+    j "Lo lamento demasiado, pero no voy a poder verte hoy, acabo de tener un incidente y es de extrema urgencia que lo atienda, espero puedas comprender."
 
     g "Carajo, debí haber invitado al extranjero"
 
@@ -145,15 +145,15 @@ label jwplanta:
 
 label restaurantejw:
 
-    "Llegó la hora de arreglarte, él vendrá a recogerte pronto, te maquillas y peinas como mejor puedes, quieres lucir lo más deslumbrante posible,"
+    "Llegó la hora de arreglarte, él vendrá a recogerte pronto, te maquillas y peinas como mejor puedes, quieres lucir lo más deslumbrante posible."
 
-    "pero no sabes elegir si ponerte tu vestido corto rojo, o tu vestido largo negro, ambos lucen hermosos..."
+    "Pero no sabes elegir si ponerte tu vestido corto rojo, o tu vestido largo negro, ambos lucen hermosos..."
 
 menu: 
-    "pero hay algo en ese rojo que te termina de convencer.":
+    "Pero hay algo en ese rojo que te termina de convencer.":
         jump meetjw
     
-    "pero el negro es un clásico que siempre luce bien.":
+    "Pero el negro es un clásico que siempre luce bien.":
         jump meetjw
 
 label meetjw:
@@ -176,15 +176,15 @@ label meetjw:
 
     "Asientes timidamente con una sonrisa furtiva"
 
-    j "ordena lo que gustes, todo es muy rico aquí,"
+    j "Ordena lo que gustes, todo es muy rico aquí."
 
-    j "yo te recomendaría el rissotto, era el favorito de mi esposa."
+    j "Yo te recomendaría el rissotto, era el favorito de mi esposa."
 
     "El ambiente de repente cambia, y se torna un poco tenso, esto es algo que no te había comentado antes,"
 
-    "¿estuvo casado? ¿no cree que sea un detalle importante que debió decir?"
+    "¿Estuvo casado? ¿No cree que sea un detalle importante que debió decir?"
 
-    "es aquí donde te surge un dilema, ¿deberías de seguir en la cita?"
+    "Es aquí donde te surge un dilema, ¿deberías de seguir en la cita?"
 
     "Si ya mintió sobre una esposa, qué te asegura que no te ha mentido sobre otras cosas."
 
@@ -193,15 +193,15 @@ menu:
 
         jump pauto
 
-    "¿Esposa? ¿estás casado? Tienes curiosidad sobre el tema":
+    "¿Esposa? ¿Estás casado? Tienes curiosidad sobre el tema":
 
         jump citajw
 
 label pauto:
 
-    g "Oye, de verdad lo siento, pero, no me siento cómoda sabiendo el hecho de que existe una esposa,"
+    g "Oye, de verdad lo siento, pero, no me siento cómoda sabiendo el hecho de que existe una esposa..."
     
-    g "y no sé sobre qué más me has mentido u ocultado, creo que, por esta ocasión, lo mejor sea que regrese a casa"
+    g "...y no sé sobre qué más me has mentido u ocultado, creo que, por esta ocasión, lo mejor sea que regrese a casa."
 
     j "Yo... lo siento, es un tema complicado, pero te aseguro que no estoy casado."
 
@@ -209,7 +209,7 @@ label pauto:
 
     j "Si gustas terminar con la cita, lo entiendo, pero déjame llevarte a casa, segura."
 
-    "El ambiente es un poco tenso e incómodo, no te sentías del todo bien al saber lo de la esposa, pero parece ser que hay algo que no sabes"
+    "El ambiente es un poco tenso e incómodo, no te sentías del todo bien al saber lo de la esposa, pero parece ser que hay algo que no sabes."
 
     g "Así que... ¿esposa?"
 
@@ -217,27 +217,27 @@ label pauto:
 
     j "Lo siento, es un tema complicado, pero siento que te debo una explicación, verás..."
 
-    j "Hace algunos años ya, estuve casado, una gran mujer; sin embargo, ella dejó este mundo."
+    j "...hace algunos años ya, estuve casado, una gran mujer; sin embargo, ella dejó este mundo."
 
-    j "Pasó mucho tiempo hasta que finalmente me di una oportunidad para empezar de nuevo,"
+    j "Pasó mucho tiempo hasta que finalmente me di una oportunidad para empezar de nuevo."
 
-    j "lamento no comentarlo antes, y también mi comentario en el restaurante, quería decírtelo de una mejor manera."
+    j "Lamento no comentarlo antes, y también mi comentario en el restaurante, quería decírtelo de una mejor manera."
 
-    "Metiste un poco la pata, parece que decirle inmediatamente que te ibas fue algo precipitado, y ahora te sientes como una tonta."
+    "Metiste un poco la pata, parece que decirle inmediatamente que te ibas fue algo precipitado."
 
-    g "Lo siento... no tenía idea"
+    g "Lo siento... no tenía idea."
 
-    g "ahora me siento como una tonta"
+    g "Ahora me siento como una tonta."
 
-    j "No te preocupes, en verdad, lo entiendo"
+    j "No te preocupes, en verdad, lo entiendo."
 
-    g "De verdad, lo siento mucho, me gustaría enmendar mi error, no me gustaría que tu primera cita quede arruinada."
+    g "De verdad, lo siento mucho, me gustaría enmendar mi error... no me gustaría que tu primera cita quede arruinada."
 
-    g "Te gustaría ¿tomar unos tragos en mi casa? y tal vez ¿pedir algo para cenar?"
+    g "Te gustaría... ¿tomar unos tragos en mi casa? y tal vez ¿pedir algo para cenar?"
 
     j "Creo que, eso me alegraría"
 
-    "John esbozo una sonrisa, pero esta se esfumo rápidamente, como si le hubieran tirado un balde de agua fría,"
+    "John esboza una sonrisa, pero esta se esfuma rápidamente, como si le hubieran tirado un balde de agua fría,"
 
     "su expresión ahora era completamente seria, su mirada había cambiado por completo mientras miraba el retrovisor."
 
@@ -245,54 +245,54 @@ label pauto:
 
     g "¿Qué sucede?"
 
-    j "Quiero que mantengas la calma por favor, y también quiero que sigas mis indicaciones al pie de la letra,"
+    j "Quiero que mantengas la calma por favor, y también quiero que sigas mis indicaciones al pie de la letra."
 
-    j "algo muy malo está a punto de pasar y no hay tiempo para explicaciones."
+    j "Algo muy malo está a punto de pasar y no hay tiempo para explicaciones."
 
     "Es así que, con su mano derecha procede a sacar una pistola del compartimiento de su auto, en el cual tenía dos armas."
 
-    "Todo presagiaba que la situación estaba a punto de tornarse violenta, y no puedes terminar de comprender qué pasa,"
+    "Todo presagiaba que la situación estaba a punto de tornarse violenta, y no puedes terminar de comprender qué pasa..."
 
-    "cuando se alcanza a ver como una moto en donde dos personas, igualmente armadas, se alinean con ustedes, apuntando directamente a ambos,"
+    "...cuando se alcanza a ver como una moto en donde dos personas, igualmente armadas, se alinean con ustedes, apuntando directamente a ambos."
 
-    "tres eran las motos, una a cada lado del vehículo, mientras que la tercera se divisaba detrás del auto, estaban rodeados,"
+    "Te das cuenta de que ahora son 3 motos, una a cada lado del vehículo, mientras que la tercera se divisaba detrás del auto, estaban rodeados."
 
-    "y sucedió lo inevitable, ¡fuego!"
+    "Y sucedió lo inevitable, ¡fuego!"
 
-    "los primeros en disparar fueron aquellos al costado del piloto, John se agacho a la par de ti."
+    "Los primeros en disparar fueron aquellos al costado del piloto, John se agacho a la par de ti."
 
     j "¡Abajo!"
 
-    "Acataste rápidamente la orden, evitando así las balas que rompieron el cristal de la puerta izquierda del auto,"
+    "Acataste rápidamente la orden, evitando así las balas que rompen el cristal de la puerta izquierda del auto."
 
-    "fueron varios disparos, ahora por parte de ambos lados del auto, a lo que john respondió con un volantazo,"
+    "Se escuchan varios disparos, ahora de ambos lados del auto, a lo que John responde con un volantazo..."
 
-    "impactando de lleno con la motocicleta a su derecha, haciendo que ambos se estampen contra el pavimento."
+    "...el cual impacta de lleno con la motocicleta a su derecha, haciendo que ambos se estampen contra el pavimento."
 
-    "Era hora del contraataque, john respondió apuntando y disparando en contra de los tipos a su lado, derribando a quien se encontraba en la parte posterior"
+    "Era hora del contraataque, John responde apuntando y disparando en contra de los tipos a su lado, derribando a quien se encontraba en la parte posterior..."
 
-    "luego de encajar dos balas en su torso, sin embargo; el piloto logró sostenerlo por el brazo con el que sujetaba su arma,"
+    "...encajando dos balas en su torso, sin embargo; el piloto logró sostenerlo por el brazo con el que sujetaba su arma."
 
-    "es así que la moto que venía detrás, ahora se encuentra avanzando hacia tu lado, por lo que..."
+    "Es así que la moto que venía detrás, ahora se encuentra avanzando hacia tu lado, por lo que..."
 
     menu: 
-        "Gritas en busca de la ayuda de john":
+        "Gritas en busca de la ayuda de John.":
             jump grito
         
-        "Tomas el arma que estaba en el compartimiento":
+        "Tomas el arma que estaba en el compartimiento.":
             jump disparo
 
 label grito:
 
-    "John se percata de que estás en grave riesgo, por lo que, en un arriesgado movimiento, deja de sostener el volante,"
+    "John se percata de que estás en grave riesgo, por lo que, en un arriesgado movimiento, deja de sostener el volante...."
 
-    "para así, de un fuerte e inhumano golpe, atravesar del casco del mercenario,"
+    "...para así, de un fuerte e inhumano golpe, atravesar del casco del mercenario..."
 
-    "acertándole un golpe directo y con una inmensa fuerza directo en la cara,"
+    "...acertándole un golpe directo y con una inmensa fuerza directo en la cara ..."
 
-    "lo que hace que caiga violentamente de la moto, y con rapidez y habilidad, ahora dispara en contra de aquellos que buscaban lastimarte,"
+    "...lo que hace que caiga violentamente de la moto, y con rapidez y habilidad, ahora dispara en contra de aquellos que buscaban lastimarte..."
 
-    "dando una bala directa en la cabeza del conductor, haciendo que finalmente se encuentren a salvo."
+    "...dando una bala directa en la cabeza del conductor, haciendo que finalmente se encuentren a salvo."
 
     j "¿Estás bien?"
 
@@ -389,3 +389,115 @@ label michcit1:
 
 label michcit:
     j "Vuelvo enseguida "
+
+    "Eso logra calmar un poco la inquietud que tenías sobre él,"
+
+    "te percatas de que ha dejado su celular sobre la mesa, así que decides guardarlo en tu bolso, por seguridad."
+
+    "Sin embargo; apenas sale del restaurante, un hombre te aborda y se sienta en la mesa contigo."
+
+    "En el lugar que antes era ocupado por John, es un hombre elegante y de buena apariencia,"
+
+    "pero te extraña la confianza con la que ha decidido sentarse delante a ti."
+
+    g "Disculpe, ese asiento está ocupado"
+
+    m "Lo sé, pero no por mucho tiempo"
+
+    "Esas palabras, y la frialdad de su voz, solamente logran asustarte,"
+
+    "las cosas no están bien y parece que la actitud de John simplemente era un presagio de que esto pasaría."
+
+    m "No pretendo quitarle mucho de su tiempo, solamente me gustaría hacerle un par de preguntas acerca de, su acompañante."
+
+    m "Empezando con la duda ¿sabe realmente qué tipo de persona o quién es en realidad?"
+
+    m "Porque a mi parecer, no sabe en la clase de problemas que se está metiendo y espero que sea así, que no lo sepas"
+
+    g "Señor, me está asustando mucho"
+
+    m "Esto será rápido"
+
+    "De repente, escuchas disparos provenientes de fuera del restaurante, sabes que es él y está en problemas"
+
+    "Las personas al rededor comienzan a alterarse y a gritar"
+
+    g "¡JOHN!"
+
+    m "Será mejor que te olvides de él ahora, ¿tienes algún tipo de información, algo que te haya dicho?"
+
+    m "No lo sé, alguna locación, algún nombre, un número."
+
+    "Comienza a sonar el celular de John, el cual está en tu bolsa."
+
+    m "Incluso su celular. Asumo que será suyo, ya que el tuyo se encuentra aquí."
+
+    m "Por qué mejor no me lo entregas y te ahorras algunos problemas."
+
+    menu:
+        "Darle el celular":
+            jump Jseva1
+        "Negarse":
+            jump Jseva2
+
+label Jseva1:
+    "Sacas el celular de tu bolso, y se lo entregas."
+
+    g "Toma, solo, no me lastimes por favor."
+
+    "Recibe el celular, y lo guarda en su saco."
+
+    m "No es necesario, gracias por cooperar, me alegra no tener que matar a alguien hoy."
+
+    "Comienza a levantarse de la mesa para así retirarse, se pone de pie y da la media vuelta."
+
+    "Pero apenas voltea, se escucha un sonido de disparo y cae desplomado de espalda sobre la mesa..."
+
+    "con un agujero entre cejas, revelando así la figura de john, cubierto de sangre."
+
+    j "¿Dónde está?"
+
+    g "Lo... lo metió en su saco"
+
+    "Toma el celular que aquel hombre guardó antes de morir, metiéndolo ahora en el suyo."
+
+    j "Gracias." 
+
+    j "Lo siento, no quería ponerte en esta situación."
+
+    "Simplemente se retira del restaurante sin más explicación."
+
+    return
+
+label Jseva2:
+    m "Huh, debiste haber hecho esto más fácil"
+
+    "No le ha gustado para nada esa respuesta, puedes ver la frialdad de su mirada mientras saca una pistola de su saco, apuntándote directamente a la cara."
+
+    m "No tenía ganas de matar a alguien hoy, pero que más remedio."
+
+    "Mientras carga su arma, al fondo se ve una sombra que, cada vez de hace más nítida."
+
+    "Es john, con la cara manchada por chorros de sangre, pero no la de él."
+
+    "La expresión de aquel hombre cambia drásticamente."
+
+    "Pasa de una confianza y arrogancia, a tener una expresión de sorpresa y miedo, de alguien que sabe lo que está a punto de pasar"
+
+    "John se encuentra justo detrás de él, apuntándole con una pistola."
+
+    "Sin decir una sola palabra y también, sin dejarlo decirlas, procede a darle un disparo certero en la cabeza."
+
+    "El hombre se desploma sobre la mesa."
+
+    j "Gracias."
+
+    j "Lo siento, no quería ponerte en esta situación."
+
+    "John extendió su mano con la palma abierta, dando a entender que quería de vuelta su celular, a lo cual haces caso."
+
+    "Lo toma, y procede a irse del restaurante sin más explicación."
+
+    return
+
+    
