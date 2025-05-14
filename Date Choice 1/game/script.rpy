@@ -414,13 +414,13 @@ label pauto:
 
     "Era hora del contraataque, John responde apuntando y disparando en contra de los tipos a su lado, derribando a quien se encontraba en la parte posterior..."
 
-    scene 14 fondoagarre
-    show 14 agarre
+    scene 14fondoagarre
+    show 14agarre
 
     "...encajando dos balas en su torso, sin embargo; el piloto logró sostenerlo por el brazo con el que sujetaba su arma."
 
     scene 15motosfondo
-    show 15 motos
+    show 15motos
 
     "Es así que la moto que venía detrás, ahora se encuentra avanzando hacia tu lado, por lo que..."
 
@@ -435,15 +435,29 @@ label grito:
 
     "John se percata de que estás en grave riesgo, por lo que, en un arriesgado movimiento, deja de sostener el volante...."
 
-    "...para así, de un fuerte e inhumano golpe, atravesar del casco del mercenario..."
+    scene 1a-1a
+    show 1a-1a1golpe
 
+    "...para así, de un fuerte e inhumano golpe, atravesar del casco del mercenario..."
     "...acertándole un golpe directo y con una inmensa fuerza directo en la cara ..."
+
+    scene 1a 2a
+    show 1a2a hola
 
     "...lo que hace que caiga violentamente de la moto, y con rapidez y habilidad, ahora dispara en contra de aquellos que buscaban lastimarte..."
 
+    hide 1a2a hola
+    show 1a2a hola2
+
     "...dando una bala directa en la cabeza del conductor, haciendo que finalmente se encuentren a salvo."
 
+    scene 1a 3a
+    show 1a3a hola
+
     j "¿Estás bien?"
+
+    scene 1a 4a
+    show 1a4a hola
 
     g "Sí... eso creo ¿Qué carajo acaba de pasar?"
 
