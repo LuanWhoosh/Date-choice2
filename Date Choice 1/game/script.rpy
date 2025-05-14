@@ -7,6 +7,7 @@ define t = Character('Megatron', color="#9f14df")
 
 label start:
 
+    scene portada fondo
     python:
         name = renpy.input("Escribe tu nombre")
 
@@ -24,6 +25,8 @@ label start:
 
     "Por lo que, debes decidir con quien te gustaría tener una cita."
 
+    scene bg fon1
+    show eleccion
 
     g "Hmmm Yo elijo a:..."
 
@@ -37,47 +40,89 @@ menu:
 
 label op:
 
+    scene bg fon 
+    show optimus perfil
+
     "Has elegido a Optimus, parece ser un nombre extranjero, te ha llamado la atención su secretismo,"
 
     "pues nunca lo has visto ni en fotos, pero es capaz de inspirar una confianza y determinación que te atrapa."
 
     "Su plan es llevarte a pasear, pero no sabes realmente que pueda suceder en la cita."
     
+    hide optimus perfil
+    scene bg cosmeticos
+    
+    
     "¡Llegó la hora de arreglarte!, él vendrá a recogerte pronto, te maquillas y peinas como mejor puedes, quieres lucir lo más deslumbrante posible..."
 
+    scene bg cama 
+    show ambos vestidos
+
     "...pero no sabes elegir si ponerte tu vestido corto rojo, o tu vestido largo negro, ambos lucen hermosos."
+    
 
 menu:
 
-    "Pero hay algo en ese rojo que te termina de convencer...":
+    "Vestido rojo...":
+
+        hide ambos vestidos 
+        show vestido rojo
+
+        "Pero hay algo en ese rojo que te termina de convencer..."
+
         jump dateop
     
-    "Pero el negro es un clásico que siempre luce bien...":
+    "Vestido negro...":
+
+        hide ambos vestidos 
+        show vestido negro
+
+        "Pero el negro es un clásico que siempre luce bien..."
+
         jump dateop
 
-
 label dateop:
+    
+    
     "Se escucha el timbre, !ha llegado!"
+
+    hide vestido rojo
+    hide vestido negro 
+    scene bg portico
+    show optimus trailer
 
     "Y al abrir la puerta encuentras... ¿un trailer?"
 
     g "Nunca mencionó ser trailero..."
 
-    g "¿QUE CARAJO?"
-
     show optimus prime
+
+    g "¿QUÉ CARAJO?"
+
 
     o "Necesito tu ayuda para encontrar la chispa suprema"
 
     "Intentas procesar lo que acaba de pasar..." 
+
+    hide optimus prime
+
+    show optimus robot: 
+        xalign 0.0
+        yalign 1.0
+    
+    show megatron tanque
     
     "...cuando de repente llega lo que parece ser un tanque alienígena, que de igual manera se transforma en un robot gigante."
+
+    hide megatron tanque
+
+    show megatron robot 
 
     t "¡VAS A CAER PRIME!"
 
     o "¡NUNCA, MEGATRON!"
 
-    "Por lo que ahora, acaba de empezar una pelea de robots gigantes en tu patio."
+    $ renpy.movie_cutscene("creditos.webm")
 
     return
 
