@@ -65,6 +65,8 @@ label dateop:
 
     g "¿QUE CARAJO?"
 
+    show optimus prime
+
     o "Necesito tu ayuda para encontrar la chispa suprema"
 
     "Intentas procesar lo que acaba de pasar..." 
