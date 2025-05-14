@@ -35,7 +35,7 @@ menu:
     "John Wick":
         jump jw
 
-    "Optimus prime":
+    "Optimus":
         jump op
 
 label op:
@@ -128,7 +128,15 @@ label dateop:
 
 label jw:
 
+    scene bg fon1
+    hide eleccion
+    show john perfil
+
     "Has elegido a John, es una persona muy tranquila y seria, también es nuevo en las apps de citas, sentía que era tiempo de darse un nuevo aire y conocer a alguien."
+
+    hide eleccion
+    scene uno auno
+    show john perfil
 
     "John te manda mensaje para ponerse de acuerdo sobre la cena, tiene pensado salir a pasear contigo y llevarte a cenar a un restaurante..."
 
@@ -149,6 +157,8 @@ label casag:
 
     "Decides prepararle algo especial hecho por ti misma, pero no sabes decidir si..."
 
+    scene uno beuno
+
 menu:
     "Pollo a la naranja":
         jump pollo
@@ -157,11 +167,15 @@ menu:
 
 label pollo:
 
+    scene uno bedos
+
     "Decides preparar un delicioso pollo a la naranja, pero esto llevara más tiempo de lo esperado, por lo que... "
 
     "...le pides a john que llegue más tarde de lo que habían acordado, a lo que accede sin problemas."
 
     "Es hora de preparar la comida, la cual haces con mucho esmero, quieres que sea especial y que lo note con solo probarlo."
+
+    show pollo naranja
 
     "Timelapse epico"
 
@@ -169,11 +183,15 @@ label pollo:
 
 label pasta:
 
+    scene uno bedos
+
     "Decides hacerle una rica pasta italiana, un rissoto será perfecto, pero esto llevara más tiempo de lo esperado, por lo que... "
 
     "...le pides a john que llegue más tarde de lo que habían acordado, a lo que accede sin problemas."
 
     "Es hora de preparar la comida, la cual haces con mucho esmero, quieres que sea especial y que lo note con solo probarlo."
+
+    show risotto
 
     "Timelapse epico"
 
@@ -182,6 +200,9 @@ label pasta:
 label jwplanta:
 
     "Ya casi es hora de que llegue John, cuando de repente suena una notificación en tu celular, es él."
+
+    scene uno betres
+    show john perfil
 
     j "Lo lamento demasiado, pero no voy a poder verte hoy, acabo de tener un incidente y es de extrema urgencia que lo atienda, espero puedas comprender."
 
@@ -192,20 +213,40 @@ label jwplanta:
 
 label restaurantejw:
 
+    scene uno ados
+
     "Llegó la hora de arreglarte, él vendrá a recogerte pronto, te maquillas y peinas como mejor puedes, quieres lucir lo más deslumbrante posible."
+
+    scene uno atres
+    show ambos vestidos
 
     "Pero no sabes elegir si ponerte tu vestido corto rojo, o tu vestido largo negro, ambos lucen hermosos..."
 
 menu: 
-    "Pero hay algo en ese rojo que te termina de convencer.":
+
+    "Vestido rojo...":
+
+        hide ambos vestidos 
+        show vestido rojo
+
+        "Pero hay algo en ese rojo que te termina de convencer..."
         jump meetjw
     
-    "Pero el negro es un clásico que siempre luce bien.":
+    "Vestido negro...":
+
+        hide ambos vestidos 
+        show vestido negro
+
+        "Pero el negro es un clásico que siempre luce bien."
+
         jump meetjw
 
 label meetjw:
 
     "Se escucha el timbre, !ha llegado!"
+
+    scene uno acuatro
+    show john rosas
 
     j "Hola, ¿cómo te va? que gusto conocerte en persona, soy John."
 
@@ -215,6 +256,9 @@ label meetjw:
 
     g "Mhhh... si"
 
+    scene uno acinco
+    show john auto feliz
+
     j "Este lugar te va a encantar, sirven una pasta deliciosa"
 
     g "..."
@@ -223,10 +267,21 @@ label meetjw:
 
     "Asientes timidamente con una sonrisa furtiva"
 
+    scene uno aseis
+    show johnmuy happy
+    show john brazo ademan zorder 1   
+    show 1a-11 mesa zorder 2
+    
     j "Ordena lo que gustes, todo es muy rico aquí."
+
+    hide john brazo ademan
+    show john brazo mano
+    show 1a-11 mesa zorder 1
 
     j "Yo te recomendaría el rissotto, era el favorito de mi esposa."
 
+    hide john brazo mano
+    
     "El ambiente de repente cambia, y se torna un poco tenso, esto es algo que no te había comentado antes,"
 
     "¿Estuvo casado? ¿No cree que sea un detalle importante que debió decir?"
@@ -238,6 +293,10 @@ label meetjw:
 menu: 
     "No me siento cómoda sabiendo el hecho de que existe una esposa":
 
+        hide johnmuy happy 
+        show john happy
+        show 1a-11 mesa zorder 1
+
         jump pauto
 
     "¿Esposa? ¿Estás casado? Tienes curiosidad sobre el tema":
@@ -245,6 +304,9 @@ menu:
         jump citajw
 
 label pauto:
+
+    hide john happy
+    show john serio
 
     g "Oye, de verdad lo siento, pero, no me siento cómoda sabiendo el hecho de que existe una esposa..."
     
@@ -255,6 +317,9 @@ label pauto:
     j "Sin embargo, entiendo que es algo por lo cual te sientas así, siento no haberlo mencionado antes."
 
     j "Si gustas terminar con la cita, lo entiendo, pero déjame llevarte a casa, segura."
+
+    scene 1a-12
+    show 2truste 1a-12
 
     "El ambiente es un poco tenso e incómodo, no te sentías del todo bien al saber lo de la esposa, pero parece ser que hay algo que no sabes."
 
@@ -284,7 +349,13 @@ label pauto:
 
     j "Creo que, eso me alegraría"
 
+    hide 2truste 1a-12
+    show 3feliz 1a-12
+
     "John esboza una sonrisa, pero esta se esfuma rápidamente, como si le hubieran tirado un balde de agua fría,"
+
+    hide 3feliz 1a-12
+    show 4tenso 1a-12
 
     "su expresión ahora era completamente seria, su mirada había cambiado por completo mientras miraba el retrovisor."
 
@@ -294,19 +365,38 @@ label pauto:
 
     j "Quiero que mantengas la calma por favor, y también quiero que sigas mis indicaciones al pie de la letra."
 
+    scene 5 toma arma
+
     j "Algo muy malo está a punto de pasar y no hay tiempo para explicaciones."
+
+    scene 1a-12
+    show 6armado 1a-12
 
     "Es así que, con su mano derecha procede a sacar una pistola del compartimiento de su auto, en el cual tenía dos armas."
 
     "Todo presagiaba que la situación estaba a punto de tornarse violenta, y no puedes terminar de comprender qué pasa..."
 
+    scene 1a-13
+    show 7motos 1a-13
+
     "...cuando se alcanza a ver como una moto en donde dos personas, igualmente armadas, se alinean con ustedes, apuntando directamente a ambos."
+
+    scene 1a-14
+    show 8motos 1a-14
 
     "Te das cuenta de que ahora son 3 motos, una a cada lado del vehículo, mientras que la tercera se divisaba detrás del auto, estaban rodeados."
 
+    scene 1a-19
+    show 9accion 1a-19
+
     "Y sucedió lo inevitable, ¡fuego!"
 
+    scene 10 disparo
+
     "Los primeros en disparar fueron aquellos al costado del piloto, John se agacho a la par de ti."
+
+    scene 1a-12
+    show 11agachado 1a-12
 
     j "¡Abajo!"
 
@@ -314,11 +404,23 @@ label pauto:
 
     "Se escuchan varios disparos, ahora de ambos lados del auto, a lo que John responde con un volantazo..."
 
+    scene 1a-18
+    show 12volantazo 1a-18
+
     "...el cual impacta de lleno con la motocicleta a su derecha, haciendo que ambos se estampen contra el pavimento."
+
+    scene 1a-17
+    show 13 disparo
 
     "Era hora del contraataque, John responde apuntando y disparando en contra de los tipos a su lado, derribando a quien se encontraba en la parte posterior..."
 
+    scene 14 fondoagarre
+    show 14 agarre
+
     "...encajando dos balas en su torso, sin embargo; el piloto logró sostenerlo por el brazo con el que sujetaba su arma."
+
+    scene 15motosfondo
+    show 15 motos
 
     "Es así que la moto que venía detrás, ahora se encuentra avanzando hacia tu lado, por lo que..."
 
