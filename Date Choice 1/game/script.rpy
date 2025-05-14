@@ -467,23 +467,52 @@ label grito:
 
 
 label disparo:
+
+    scene 1b accion
+
     "...y sin pensarlo mucho, disparas en contra de tus agresores, acertando con mucha suerte,"
+
+    scene 1a-1b2b
+    show 2b accion
 
     "en el cuello del conductor, lo que hace que pierda el control y ambos caigan a gran velocidad."
 
+    scene 3b accion 
+
     "John, impresionado, decide acabar con todo de una vez por todas, y con una maniobra logra quitar aquel agarre,"
 
-    "frenando en seco haciendo incluso que el auto derrape, y con un disparo certero,"
+    scene 4b accion
 
-    "logra dar en el tanque de gasolina de aquella moto que se siguió de largo, y que, al recibir aquella bala, explota."
+    "frenando en seco haciendo incluso que el auto derrape"
+
+    scene 5b accion
+    
+    "y con un disparo certero,"
+
+    scene 1a-1b6b
+    show 6b accion
+
+    "logra dar en la cabeza del conductor de la última moto"
+
+    scene 7b accion 
+
+    "que siguió de largo, y al estrellarse, explota."
+
+    scene 8b accion
 
     j "Gracias, eso fue muy valiente de tu parte"
+
+    scene 1a-1b9b
+    show 9b accion
 
     j "¿Estás bien?"
 
     g "Sí... eso creo"
 
     g "¿Qué mierda fue eso?"
+
+    scene 1a-1b9b
+    show 10b accion
 
     g "¿Por qué nos atacaron esos tipos?"
 
